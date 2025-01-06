@@ -1,5 +1,5 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = (5 / 9)
-CELSIUS_TO_FAHRENHEIT_FACTOR = (9 / 5)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
 
 def convert_to_celsius(fahrenheit):
@@ -15,7 +15,7 @@ prompt2 = input("Is this temperature in Celsius or Fahrenheit? (C/F):").strip().
 
 if prompt2 == "C":
     print(f"{prompt1}°C is {convert_to_fahrenheit(prompt1)}°F")
-if prompt2 == "F":
+elif prompt2 == "F":
     print(f"{prompt1}°F is {convert_to_celsius(prompt1)}°C")
 
 else:
