@@ -1,0 +1,1 @@
+print(display_current_datetim())
