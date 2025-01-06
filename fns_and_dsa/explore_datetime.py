@@ -3,13 +3,11 @@ import datetime
 
 def display_current_datetim():
     current_date = datetime.datetime.now()
-
     return current_date.strftime("%Y-%m-%d %H:%M:%S")
 
 
 def calculate_future_date(number_of_days):
     future_date = datetime.datetime.now() + datetime.timedelta(days=number_of_days)
-
     return future_date.strftime("%Y-%m-%d")
 
 
